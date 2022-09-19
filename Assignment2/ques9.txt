@@ -1,0 +1,4 @@
+#keyword that used as data
+none
+False
+True
