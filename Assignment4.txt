@@ -1,0 +1,53 @@
+#python script to take your name as input from the user and then print it.
+
+name = input("enter your name-:")
+print(name)
+
+#Python script to take input from the user(in number).
+
+x= int(input("enter any number-:")
+print(x)
+
+#py script which takes two numbers from the user, then calculate their sum
+and display the result.
+
+a= int(input("enter first number-"))
+b= int(input("enter second number-"))
+print("Sum is-",a+b)
+
+#python script which takes the radius from the user and display area of a circle.
+rad = float(input("enter radius-"))
+area = 3.14*rad*rad
+print("Area of circle is-:",area)
+
+#python script to calculate the square of a number. Number is entered by the user.
+num = float(input("enter a number-"))
+print("Square of number is-:",num*num)
+
+#python script to calculate the area of Triangle.
+h = float(input("enter height of triangle-:"))
+b = float(input("enter base of triangle-"))
+print("Area of triangle is-:",0.5*h*b)
+
+#python script to calculate average of three numbers.
+x = float(input("enter first number-:"))
+y = float(input("enter second number-:"))
+z = float(input("enter third number-:"))
+print("Average is - :",(x+y+z)/3)
+
+#python script to calculate simple interest
+p = float(input("enter principal amount-:"))
+r = float(input("enter interest rate-:"))
+t = float(input(enter time(in years)-:"))
+print("Simple interest is -:",(p*r*t)/100))
+
+#python script to calculate the volume of a cuboid.
+w = float(input("enter width-:"))
+h = float(input("enter height-:"))
+l = float(input("enter length-:"))
+print("Volume of cuboid is-:",w*h*l)
+
+#python script to calculate area of a rectangle
+b = float(input("enter breadth of rectangle-:"))
+l = float(input("enter length of triangle-:"))
+print("Area of rectangle is -:",b*l)
